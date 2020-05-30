@@ -1,4 +1,9 @@
 # Docker
+- task: Docker@2
+  inputs:
+    repository: 'pavan123499 / pyapp'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
